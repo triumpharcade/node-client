@@ -2,13 +2,14 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",
-    "outDir": "lib",
+    "outDir": "dist",
     "noImplicitReturns": true,
     "noErrorTruncation": true,
     "noUnusedLocals": true,
     "sourceMap": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ]
 }

@@ -1,13 +1,14 @@
 {
-  "name": "triumph-node",
+  "name": "@triumph-arcade/triumph-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Triumph Node Client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p . && tsc-alias"
   },
   "keywords": [],
-  "author": "",
+  "author": "Triumph Arcade",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
@@ -16,5 +17,16 @@
   },
   "devDependencies": {
     "@types/node": "^20.2.5"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/triumpharcade/node-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/triumpharcade/node-client/issues"
+  },
+  "homepage": "https://github.com/triumpharcade/node-client#readme"
 }
