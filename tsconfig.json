@@ -3,6 +3,7 @@
     "module": "commonjs",
     "target": "es5",
     "outDir": "lib",
+    "declaration": true,
     "noImplicitReturns": true,
     "noErrorTruncation": true,
     "noUnusedLocals": true,
