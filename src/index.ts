@@ -120,4 +120,4 @@ class Configuration {
     }
 }
 
-export {Client, Configuration};
+export default Client
