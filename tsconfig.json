@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",
-    "outDir": "dist",
+    "outDir": "lib",
     "noImplicitReturns": true,
     "noErrorTruncation": true,
     "noUnusedLocals": true,
@@ -10,6 +10,6 @@
   },
   "exclude": [
     "node_modules",
-    "dist"
+    "lib"
   ]
 }

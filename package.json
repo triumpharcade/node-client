@@ -1,15 +1,18 @@
 {
   "name": "@triumph-arcade/triumph-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Triumph Node Client",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "build": "tsc -p . && tsc-alias"
   },
   "keywords": [],
   "author": "Triumph Arcade",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.4.0",
     "tsc-alias": "^1.8.6"
@@ -18,7 +21,7 @@
     "@types/node": "^20.2.5"
   },
   "directories": {
-    "lib": "dist"
+    "lib": "lib"
   },
   "repository": {
     "type": "git",
